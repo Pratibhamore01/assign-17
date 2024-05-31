@@ -9,11 +9,15 @@
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
+    background-color: springgreen;
+    height: 700px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .movie-card {
-    width: 400px;
-    height: 600px;
+    width: 350px;
+    height: 580px;
     background-color: #de86c1;
     border: solid 1px:#ff0000;
     margin: 10px 20px;
@@ -25,9 +29,9 @@
 .movie-card:hover{
     width: 450;
 }
-.movie-img {
-    height: 300px;
-    width: 350px;
+.movie-img{
+    height: 250px;
+    width: 300px;
     padding: 10px;
     border-radius: 60px;
     box-shadow: rgb(24, 212, 74);
