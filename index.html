@@ -5,7 +5,7 @@
     <title>Movie cards</title>
     <style>
         .body {
-            background-color: #00cccc;
+            background-color: #0ab3b3;
             padding: 0px;
             margin: 0px;
         }
@@ -13,24 +13,53 @@
         .container {
             display: flex;
             flex-direction: row;
-            justify-content: center;
-            justify-content: space-evenly;
             background-color: springgreen;
             height: 700px;
-            align-items: center;
-            flex-wrap: wrap;
+            border:solid 2px purple;
         }
-
-        .movie-card {
-            width: 350px;
+        .M1 {
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+           align-items: start;
+           width: 350px;
             height: 580px;
-            background-color: #de86c1;
-            border: solid 1px:#ff0000;
-            margin: 10px 20px;
+            background-color: #d467b0;
+            border: dashed 5px #3511e8;
+            margin: 20px 20px;
             padding: 10px;
             border-radius: 14px;
-            box-shadow: 8px 8px 8px grey;
-        
+            box-shadow: 10px 10px 10px grey;
+        }
+
+        .M2{
+           display: flex;
+           flex-direction: column;
+           justify-content: start;
+           align-items: center;
+           width: 350px;
+            height: 580px;
+            background-color: #d467b0;
+            border: solid 5px #3511e8;
+            margin: 20px 20px;
+            padding: 10px;
+            border-radius: 14px;
+            box-shadow: 10px 10px 10px grey;
+        }
+
+        .M3{
+           display: flex;
+           flex-direction: column-reverse;
+           justify-content: start;
+           align-items: end;
+           width: 350px;
+            height: 580px;
+            background-color: #d467b0;
+            border: dashed 5px #3511e8;
+            margin: 20px 20px;
+            padding: 10px;
+            border-radius: 14px;
+            box-shadow: 10px 10px 10px grey;
         }
         .movie-card:hover{
             width: 450;
@@ -66,22 +95,22 @@
 </head>
 <body>
     <div class="container">
-        <div class="movie-card">
-                <img src="movie-1.jpeg"class="movie-img"><br>
+        <div class="M1">
+                <img src="m1/movie-1.jpeg"class="movie-img"><br>
                 <h1>Salar<img src="./img/play.png" class="playbtn"></h1>
                 <h3>Rating : 8.9</h3>
                 <h3>Lang : Hindi</h3>
                 <h3>Review : 90k</h3>
         </div>
-        <div class="movie-card">
-               <img src="movie-2.jpg" class="movie-img">
+        <div class="M2">
+               <img src="m2/movie-2.jpg" class="movie-img">
                <h1>Bade miyan chote miyan<img src="./img/play.png" class="playbtn"></h1>
                <h3>Rating :7.2</h3>
                <h3>Lang : Hindi</h3>
                <h3>Review : 70k</h3>
         </div>
-        <div class="movie-card">
-              <img src="movie-3.jpg" class="movie-img">
+        <div class="M3">
+              <img src="m3/movie-3.jpg" class="movie-img">
               <h1>Varisu<img src="./img/play.png" class="playbtn"></h1>
               <h3>Rating :6.6</h3>
               <h3>Lang : Hindi</h3>
